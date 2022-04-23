@@ -1,0 +1,8 @@
+
+l
+java:S3305"VInject this field value directly into "tokenRepository", the only method that uses it.(²ð²Ý
+c	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ù™—
+s
+java:S1128"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsService'.(¶…¥à
+v
+java:S1128"`Remove this unused import 'org.springframework.security.web.util.matcher.AntPathRequestMatcher'.(¼¸öŽ

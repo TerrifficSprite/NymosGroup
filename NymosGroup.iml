@@ -30,7 +30,7 @@
       <configuration />
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_10">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -149,7 +149,7 @@
     <orderEntry type="library" name="Maven: org.webjars:bootstrap:3.3.7" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery:1.11.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-messaging:5.3.9" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-websocket:2.6.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-websocket:2.6.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-websocket:5.3.10" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.integration:spring-integration-stomp:5.5.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.integration:spring-integration-core:5.5.4" level="project" />

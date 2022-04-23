@@ -1,0 +1,10 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ñ¡»ÿ
+Q	java:S125."<This block of commented-out lines of code should be removed.(Ìû³â
+c
+java:S1192K"MDefine a constant instead of duplicating this literal "default_chat" 3 times.(Óñ›•
+h
+java:S11927"MDefine a constant instead of duplicating this literal "registration" 3 times.(Š“‘øÿÿÿÿ
+f	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖŠß
+M
+java:S2629u"7Use the built-in formatting to construct this argument.(Ê“²î

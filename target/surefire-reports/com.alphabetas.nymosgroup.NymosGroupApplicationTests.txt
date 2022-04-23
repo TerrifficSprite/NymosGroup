@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.alphabetas.nymosgroup.NymosGroupApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.225 s - in com.alphabetas.nymosgroup.NymosGroupApplicationTests
