@@ -27,8 +27,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
             System.out.println("User Not Found!");
             return null;
         }
-        System.out.println("User found!");
-//        clientModel.setPassword(EncodePasswordUtil.encode(clientModel.getPassword()));
+        System.out.println("User found!");//        clientModel.setPassword(EncodePasswordUtil.encode(clientModel.getPassword()));
         List<GrantedAuthority> authorities = new ArrayList<>();
         authorities.add(new SimpleGrantedAuthority(clientModel.getRole()));
         return new User(
