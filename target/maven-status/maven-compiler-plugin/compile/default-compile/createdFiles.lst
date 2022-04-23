@@ -1,0 +1,4 @@
+com\example\postsql_2\domain\Message.class
+com\example\postsql_2\repos\MessageRepository.class
+com\example\postsql_2\main\PostSql2Application.class
+com\example\postsql_2\controllers\MainController.class

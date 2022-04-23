@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600;700&family=Righteous&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/registration_login.css">
+    <link rel="stylesheet" type="text/css" href="css/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="css/my-bootstrap.css">
+    <title>Головна</title>
+</head>
+<body>
+<header th:insert="~{code_template :: #header}"></header>
+<main class="main">
+    <div th:if="${exist}">
+        <div class="btn btn-danger" style="display: block; margin: 15px 2px; font-size: 13px" th:utext="${exist_msg}">
+            Аккаунт з таким іменем користувача вже існує!
+        </div>
+
+    </div>
+    <div th:if="${pass_not_confirmed}" class="btn btn-danger" style="display: block; margin: 15px 2px;">
+        Паролі не співпадають!
+    </div>
+    <form method="post" th:action="@{/registration}">
+
+        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+
+        <div class="main_block">
+            <h3 class="reg_text">Реєстрація</h3>
+            <input type="text" class="input" name="username" placeholder="Ім'я користувача" required autofocus>
+            <input type="password" class="input" name="password" placeholder="Пароль" required>
+            <input type="password" class="input" name="password_confirm" placeholder="Підтвердіть пароль" required>
+
+            <input name="_csrf" type="hidden" value="4bf1816c-0080-40fd-a3f3-0d50c9d4a073"/>
+
+            <input type="submit" class="submit" value="Зареєструватись">
+        </div>
+    </form>
+
+    <div class="haveaccount">
+        <span class="have_account">Вже є аккаунт?&nbsp<a class="login" href="/login">Ввійти</a></span>
+    </div>
+
+    <!-- Абсолютна фотка -->
+    <div class="meteors_div">
+        <img src="img/registration/meteors.png" alt="" class="meteors">
+    </div>
+</main>
+
+<!-- Футер -->
+<footer th:insert="code_template :: #footer"></footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÈøÇ
+M
+java:S1128"7Remove this unused import 'org.aspectj.bridge.Message'.(”Á·ª
+r
+java:S1128	"\Remove this unused import 'org.springframework.security.core.context.SecurityContextHolder'.(ŒÄæë
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°æÊˆ
+9
+java:S2629"$Invoke method(s) only conditionally.(ý†¿k
