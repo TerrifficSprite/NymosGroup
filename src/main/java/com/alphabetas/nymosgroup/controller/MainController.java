@@ -47,7 +47,7 @@ public class MainController {
         if(auth.equals("[ROLE_ANONYMOUS]"))
             return "redirect:/login";
         model.addAttribute("auth", auth.equals("[ROLE_ANONYMOUS]"));
-        return "chats";
+        return "redirect:/chats";
     }
 
     @GetMapping("/registration")

@@ -27,8 +27,6 @@ x
 Hsrc/main/java/com/alphabetas/nymosgroup/controller/InviteController.java,6\6\663fcda262bb0a7ece7786d694732cb49310c961
 y
 Isrc/main/java/com/alphabetas/nymosgroup/controller/MyErrorController.java,8\4\842b2f175e160026710b1dc18dc8b5f00c0c6ddd
-w
-Gsrc/main/java/com/alphabetas/nymosgroup/controller/ChatsController.java,7\1\7152dfeff6a4b238b0e502868070cd6a5dc7acbf
 z
 Jsrc/main/java/com/alphabetas/nymosgroup/controller/MessagesController.java,0\c\0cbf173321f2498eaba75ce7e42fe58b1d2d5dbe
 …
@@ -85,8 +83,6 @@ m
 =src/main/java/com/alphabetas/nymosgroup/model/ClientChat.java,b\a\ba5c58b6fa2628e687276d1568cbc3b98d2d0275
 n
 >src/main/java/com/alphabetas/nymosgroup/model/ClientModel.java,a\d\ad8336fcfb7a1d523d5363433c0115c0a1db5771
-v
-Fsrc/main/java/com/alphabetas/nymosgroup/controller/MainController.java,8\1\81131348d11748b0a8d8963a249920d87a0edead
 k
 ;src/main/java/com/alphabetas/nymosgroup/model/Messages.java,d\8\d8120bc5a5cc4a635d4fd5e05a58a4cca68b066a
 m
